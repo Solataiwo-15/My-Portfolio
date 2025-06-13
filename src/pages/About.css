@@ -1,0 +1,74 @@
+.about {
+  padding: 4rem 5rem;
+  color: #333;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skills-list span {
+  background-color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.skills-list span:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f0f0f0;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+  background-color: #007bff;
+  color: white;
+}
