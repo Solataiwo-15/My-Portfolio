@@ -29,7 +29,7 @@ const Projects = () => {
       title: 'Portfolio Website',
       description: 'A clean, interactive, and responsive portfolio built with React — showcasing sleek UI/UX, smooth animations, and real-world projects that highlight creativity, functionality, and front-end precision.',
       // tech: ['HTML', 'CSS'],
-      live: 'https://lumo-landing-page-24dn.vercel.app/',
+      live: 'https://my-portfolio-ashy-omega-37.vercel.app/',
       // github: 'https://github.com/Solataiwo-15/lumo-landing-page',
       image: porftolio,
     },

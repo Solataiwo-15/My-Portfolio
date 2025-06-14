@@ -172,6 +172,7 @@
   .contact-page p {
     font-size: 0.95rem;
     margin-bottom: 25px;
+    align-items: center;
   }
 
   .contact-form-container {
@@ -186,7 +187,7 @@
   .contact-form input,
   .contact-form textarea {
     font-size: 0.8rem;
-    padding: 9px;
+    padding: 12px;
   }
 
   .contact-form button {
@@ -219,7 +220,7 @@
 
   .contact-links {
     gap: 12px;
-    margin-top: 70px;
+    margin-top: 50px;
   }
 
   .contact-links a {
