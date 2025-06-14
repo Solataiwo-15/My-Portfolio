@@ -80,3 +80,52 @@
 .project-links a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 429px) {
+  .projects-page {
+    padding: 3rem 2.5rem;
+  }
+
+  .projects-page h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .project-image {
+    height: 160px;
+    margin-bottom: 1rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .tech-stack {
+    gap: 0.4rem;
+    justify-content: center;
+  }
+
+  .tech-stack span {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .project-links a {
+    font-size: 0.85rem;
+  }
+}
+

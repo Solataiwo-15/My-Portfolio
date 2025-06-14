@@ -46,6 +46,7 @@
   color: #fff;
   border-radius: 6px;
   cursor: pointer;
+  font-size: 0.95rem;
   transition: background-color 0.3s ease;
 }
 
@@ -156,4 +157,82 @@
 .contact-links a span {
   font-size: 0.75rem;
   font-weight: 500;
+}
+
+@media (max-width: 429px) {
+  .contact-page {
+    padding: 3rem 2.5rem;
+  }
+
+  .contact-page h2 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+
+  .contact-page p {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+
+  .contact-form-container {
+    padding: 0;
+  }
+
+  .contact-form {
+    width: 100%;
+    gap: 12px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.8rem;
+    padding: 9px;
+  }
+
+  .contact-form button {
+    font-size: 0.8rem;
+    padding: 10px;
+    height: 40px;
+    width: 50%;
+    margin: 10px auto; 
+  }
+
+  .success-popup {
+    top: 10px;
+    right: 10px;
+    min-width: 240px;
+    max-width: 280px;
+    padding: 12px 18px;
+    font-size: 0.85rem;
+  }
+
+  .check-icon {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+
+  .close-btn {
+    top: 4px;
+    right: 8px;
+    font-size: 16px;
+  }
+
+  .contact-links {
+    gap: 12px;
+    margin-top: 60px;
+  }
+
+  .contact-links a {
+    width: 60px;
+    height: 60px;
+    padding: 13px;
+  }
+
+  .contact-links a svg {
+    font-size: 17px;
+  }
+
+  .contact-links a span {
+    font-size: 0.65rem;
+  }
 }
