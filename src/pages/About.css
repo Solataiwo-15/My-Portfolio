@@ -72,3 +72,43 @@
   background-color: #007bff;
   color: white;
 }
+
+@media (max-width: 429px) {
+  .about {
+    padding: 2rem 2.5rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: flex-start;
+  }
+
+  .about h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .skills {
+    margin-top: 2rem;
+  }
+
+  .skills h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .skills-list {
+    gap: 1rem;
+  }
+
+  .skills-list span,
+  .skill-item {
+    font-size: 0.85rem;
+    padding: 0.45rem 0.8rem;
+  }
+}

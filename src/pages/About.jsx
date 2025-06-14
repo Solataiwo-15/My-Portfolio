@@ -33,13 +33,7 @@ function About() {
         >
           <h1>About Me</h1>
           <p>
-            Hi! I’m <strong>Taiwo Ahmad</strong>, a creative and detail-driven Front-End Developer and UI/UX Designer based in Nigeria. I specialize in building clean, responsive, and accessible web interfaces using HTML, CSS, JavaScript, and React..
-          </p>
-          <p>
-            With a solid foundation in design and development, I bring ideas to life through intuitive user experiences and pixel-perfect implementations. I'm passionate about crafting interfaces that not only look great but also feel seamless and meaningful to users.
-          </p>
-          <p>
-            Beyond the screen, I’m deeply interested in digital communication, product thinking, and how design influences human behavior. Whether it’s coding, designing, or learning new things, I’m always eager to grow and make an impact through thoughtful digital experiences.
+            Hi! I’m <strong>Taiwo Ahmad</strong>, a creative and detail-driven Front-End Developer and UI/UX Designer based in Nigeria. I specialize in building clean, responsive, and accessible web interfaces using HTML, CSS, JavaScript, and React. With a solid foundation in design and development, I bring ideas to life through intuitive user experiences and pixel-perfect implementations. I'm passionate about crafting interfaces that not only look great but also feel seamless and meaningful to users. Beyond the screen, I’m deeply interested in digital communication, product thinking, and how design influences human behavior. Whether it’s coding, designing, or learning new things, I’m always eager to grow and make an impact through thoughtful digital experiences.
           </p>
           <div className="skills">
             <h2>
