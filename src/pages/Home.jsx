@@ -12,7 +12,7 @@ function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1>Hi, I'm <span className="highlight">Taiwo Ahmad.</span></h1>
+          <h1>Hi, I'm <span className="highlight">Taiwo Ahmad</span>.</h1>
           <h2>Front-End Developer | UI/UX Designer</h2>
           <p>I craft visually appealing, responsive, and user-focused web experiences using modern technologies.</p>
           <div className="home-cta-wrapper">
