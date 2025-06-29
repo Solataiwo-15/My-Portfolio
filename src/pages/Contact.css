@@ -136,7 +136,7 @@
   color: #333;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 10px #00000014;
   padding: 14px;
   width: 80px;
   height: 80px;
@@ -145,7 +145,7 @@
 
 .contact-links a:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 16px #0000001f;
   color: #0077b6;
 }
 
