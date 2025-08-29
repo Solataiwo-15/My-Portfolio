@@ -29,7 +29,7 @@ const Projects = () => {
       title: 'Edible Mart Web App',
       description: 'A responsive web app for ordering food effortlessly, featuring a user-friendly booking form, an admin dashboard to manage orders, download records as PDF, and control form submissions, all wrapped in a clean and modern interface.',
       tech: ['JAVASCRIPT', 'TYPESCRIPT', 'REACT','TAILWIND CSS' ],
-      live: 'https://https://edible-mart.vercel.app/',
+      live: 'https://edible-mart.vercel.app/',
       // github: 'https://github.com/Solataiwo-15/lumo-landing-page',
       image: edible,
     },

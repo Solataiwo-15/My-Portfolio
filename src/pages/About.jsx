@@ -12,6 +12,7 @@ import {
 
 // import { SiVisualstudioCode } from 'react-icons/si';
 import { SiAdobephotoshop } from 'react-icons/si';
+import { SiTypescript, SiTailwindcss, SiBootstrap } from "react-icons/si"
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -33,7 +34,7 @@ function About() {
         >
           <h1>About Me</h1>
           <p>
-            Hi! I’m <strong>Taiwo Ahmad</strong>, a creative and detail-driven Front-End Developer and UI/UX Designer based in Nigeria. I specialize in building clean, responsive, and accessible web interfaces using HTML, CSS, JavaScript, and React. With a solid foundation in design and development, I bring ideas to life through intuitive user experiences and pixel-perfect implementations. I'm passionate about crafting interfaces that not only look great but also feel seamless and meaningful to users. Beyond the screen, I’m deeply interested in digital communication, product thinking, and how design influences human behavior. Whether it’s coding, designing, or learning new things, I’m always eager to grow and make an impact through thoughtful digital experiences.
+            Hi! I’m <strong>Taiwo Ahmad</strong>, a Front-End Developer from Nigeria. I create clean, responsive, and user-friendly web interfaces using HTML, CSS, JavaScript, and React. Recently, I’ve been expanding my skills with Tailwind CSS and building more advanced projects that combine good design with solid functionality. With a strong background in UI/UX, I pay close attention to detail, ensuring every project feels intuitive and engaging. I’m passionate about solving problems through design and code, continuously learning, and building digital experiences that are both functional and visually appealing. Right now, I’m focused on growing as a developer, contributing to real-world projects, and bringing creative ideas to life on the web.
           </p>
           <div className="skills">
             <h2>
@@ -43,6 +44,9 @@ function About() {
               <div className="skill-item"><FaHtml5 /> <span>HTML</span></div>
               <div className="skill-item"><FaCss3Alt /> <span>CSS</span></div>
               <div className="skill-item"><FaJsSquare /> <span>JavaScript</span></div>
+              <div className="skill-item"><SiTailwindcss /> <span>Tailwind CSS</span></div>
+              <div className="skill-item"><SiTypescript /> <span>TypeScript</span></div>
+              <div className="skill-item"><SiBootstrap /> <span>Bootstrap</span></div>
               <div className="skill-item"><FaReact /> <span>React</span></div>
               <div className="skill-item"><FaFigma /> <span>Figma</span></div>
               <div className="skill-item"><SiAdobephotoshop /> <span>Photoshop</span></div>
