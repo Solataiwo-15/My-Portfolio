@@ -65,7 +65,6 @@
   z-index: inherit;
 }
 
-/* =========== MOBILE FIX =========== */
 @media (max-width: 429px) {
 
   .navbar {
@@ -74,7 +73,6 @@
     padding: 0.8rem 2rem;
   }
 
-  /* Wrap logo and menu toggle side-by-side */
   .nav-header {
     display: flex;
     justify-content: space-between;
@@ -115,7 +113,7 @@
 
   .nav-links.show {
     display: flex;
-    max-height: 300px; /* Adjust based on the number of links */
+    max-height: 300px; 
     overflow: visible;
   }
 

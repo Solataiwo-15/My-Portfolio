@@ -1,5 +1,4 @@
 import "./About.css";
-
 import {
   FaHtml5,
   FaCss3Alt,
@@ -10,7 +9,6 @@ import {
   FaGithub
 } from 'react-icons/fa';
 
-// import { SiVisualstudioCode } from 'react-icons/si';
 import { SiTypescript, SiTailwindcss, SiBootstrap, SiAdobephotoshop, SiChakraui, SiNextdotjs } from "react-icons/si"
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";

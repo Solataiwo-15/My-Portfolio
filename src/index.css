@@ -39,7 +39,6 @@ body {
   opacity: 0.6;
 }
 
-/* 🔽 Mobile styles for max-width 429px */
 @media (max-width: 429px) {
   .footer {
     padding: 15px 0;

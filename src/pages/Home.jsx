@@ -1,6 +1,6 @@
-import "./Home.css"; // Importing the CSS file for styling
+import "./Home.css";
 import { FaDownload, FaGithub, FaLinkedin, FaBehance } from "react-icons/fa";
-import CV from "../assets/Taiwo_Ahmad_CV.pdf"; // Ensure this path is correct for your CV file
+import CV from "../assets/TaiwoAhmad.pdf";
 import { motion } from "framer-motion";
 
 function Home() {
@@ -17,8 +17,7 @@ function Home() {
           <p>I craft visually appealing, responsive, and user-focused web experiences using modern technologies.</p>
           <div className="home-cta-wrapper">
             <a
-              href= {CV} // Ensure this path is correct for your CV file
-              // download
+              href= {CV} 
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn"

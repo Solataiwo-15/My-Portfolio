@@ -23,7 +23,7 @@ const Contact = () => {
           console.log(result.text);
           setSuccess(true);
           form.current.reset();
-          setTimeout(() => setSuccess(false), 4000); // auto-hide message
+          setTimeout(() => setSuccess(false), 4000);
         },
         (error) => {
           console.log(error.text);
