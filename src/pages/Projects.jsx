@@ -1,11 +1,9 @@
-// src/pages/Projects.jsx
-
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Projects.css';
 import tenzies from '/images/Tenzies-preview.png';
-import todo from '/images/todo-list-preview.png';
+import todoBoardImage from '/images/todo-board.png';
 import assembly from '/images/assembly-endgame.png';
 import porftolio from '/images/portfolio-preview.png';
 import qrCode from '/images/qrCode-preview.png';
@@ -18,17 +16,17 @@ const Projects = () => {
 
   const projectList = [
     {
-      title: 'Assembly End-game',
-      description: 'A React-based mini game designed to engage users with smooth transitions, interactive elements, and a futuristic, visually appealing interface. Responsive layout and animations ensure an enjoyable experience across all devices."',
-      tech: ['CSS', 'JAVASCRIPT', 'REACT'],
-      live: 'https://assemble-endgame.vercel.app/',
-      // github: 'https://github.com/Solataiwo-15/assembly-endgame',
-      image: assembly,
+      title: 'Todo Board Assignment',
+      description: 'A task management board built with React and Chakra UI, allowing users to create, move, and delete tasks across categories (To Do, In Progress, Complete) with a sleek interface and smooth interactions.',
+      tech: ['NEXT.JS', 'CHAKRA UI', 'TYPESCRIPT'],
+      live: 'https://todo-board-assignment.vercel.app/',
+      // github: 'https://github.com/your-repo-here',
+      image: todoBoardImage,
     },
     {
       title: 'Edible Mart Web App',
       description: 'A responsive web app for ordering food effortlessly, featuring a user-friendly booking form, an admin dashboard to manage orders, download records as PDF, and control form submissions, all wrapped in a clean and modern interface.',
-      tech: ['JAVASCRIPT', 'TYPESCRIPT', 'REACT','TAILWIND CSS' ],
+      tech: [ 'TYPESCRIPT', 'REACT','TAILWIND CSS' ],
       live: 'https://edible-mart.vercel.app/',
       // github: 'https://github.com/Solataiwo-15/lumo-landing-page',
       image: edible,
@@ -42,20 +40,20 @@ const Projects = () => {
       image: porftolio,
     },
     {
+      title: 'Assembly End-game',
+      description: 'A React-based mini game designed to engage users with smooth transitions, interactive elements, and a futuristic, visually appealing interface. Responsive layout and animations ensure an enjoyable experience across all devices."',
+      tech: ['CSS', 'JAVASCRIPT', 'REACT'],
+      live: 'https://assemble-endgame.vercel.app/',
+      // github: 'https://github.com/Solataiwo-15/assembly-endgame',
+      image: assembly,
+    },
+    {
       title: 'QR Code Generator',
       description: 'A sleek and responsive QR Code Generator web app that allows users to easily create QR codes from text or URLs, featuring a simple interface, smooth user experience, and modern design aesthetics.',
       tech: ['CSS', 'JAVASCRIPT'],
       live: 'https://qr-code-generator-ten-liart.vercel.app/',
       // github: '',
       image: qrCode,
-    },
-    {
-      title: 'To-Do List Web App',
-      description: 'A minimalist and intuitive to-do list web app designed for task management, enabling users to add, check off, and delete tasks with ease, all within a clean and responsive user interface.',
-      tech: ['CSS', 'JAVASCRIPT'],
-      live: 'https://simple-to-do-list-web-app-pi.vercel.app/',
-      // github: '',
-      image: todo,
     },
     {
       title: 'Tenzies Game',
@@ -65,7 +63,6 @@ const Projects = () => {
       // github: '',
       image: tenzies,
     },
-    // Add more projects as you build them
   ];
 
   return (
