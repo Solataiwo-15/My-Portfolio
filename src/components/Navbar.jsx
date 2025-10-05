@@ -5,8 +5,6 @@ import "./Navbar.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
-
-  // Function to close the menu on link click, useful for mobile
   const closeMenu = () => setIsOpen(false);
 
   return (
@@ -25,17 +23,17 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="about" spy={true} smooth={true} offset={-170} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
+          <Link to="about" spy={true} smooth={true} offset={-180} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
             About
           </Link>
         </li>
         <li>
-          <Link to="projects" spy={true} smooth={true} offset={-170} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
+          <Link to="projects" spy={true} smooth={true} offset={-180} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to="contact" spy={true} smooth={true} offset={-170} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
+          <Link to="contact" spy={true} smooth={true} offset={-180} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
             Contact
           </Link>
         </li>
