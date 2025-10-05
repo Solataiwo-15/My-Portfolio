@@ -1,5 +1,4 @@
-// AFTER
-import Home from "./pages/Home"; // Assuming you have a Home.jsx
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";

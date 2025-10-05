@@ -34,24 +34,20 @@ function About() {
               Skills & Tools
             </h2>
             <div className="skills-list">
-              {/* Core Web */}
               <div className="skill-item"><FaHtml5 /> <span>HTML</span></div>
               <div className="skill-item"><FaCss3Alt /> <span>CSS</span></div>
               <div className="skill-item"><FaJsSquare /> <span>JavaScript</span></div>
               <div className="skill-item"><SiTypescript /> <span>TypeScript</span></div>
 
-              {/* Frameworks & Libraries */}
               <div className="skill-item"><FaReact /> <span>React</span></div>
               <div className="skill-item"><SiNextdotjs /> <span>Next.js</span></div>
               <div className="skill-item"><SiTailwindcss /> <span>Tailwind CSS</span></div>
               <div className="skill-item"><SiChakraui /> <span>Chakra UI</span></div>
               <div className="skill-item"><SiBootstrap /> <span>Bootstrap</span></div>
 
-              {/* Design */}
               <div className="skill-item"><FaFigma /> <span>Figma</span></div>
               <div className="skill-item"><SiAdobephotoshop /> <span>Photoshop</span></div>
 
-              {/* Tools */}
               <div className="skill-item"><FaGitAlt /> <span>Git</span></div>
               <div className="skill-item"><FaGithub /> <span>GitHub</span></div>
             </div>
