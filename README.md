@@ -38,6 +38,6 @@ This portfolio was built using a modern front-end tech stack:
 
 **Ahmad Taiwo**
 
-- **[LinkedIn]:(https://www.linkedin.com/in/ahmad-taiwo/)**
-- **[GitHub]:(https://github.com/Solataiwo-15)**
-- **[Behamce]:(https://www.behance.net/ahmadtaiwo15)**
+- **[LinkedIn](https://www.linkedin.com/in/ahmad-taiwo/)**
+- **[GitHub](https://github.com/Solataiwo-15)**
+- **[Behamce](https://www.behance.net/ahmadtaiwo15)**
