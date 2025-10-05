@@ -66,7 +66,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects-page">
+    <div className="projects-page" id='projects'>
       <h1 data-aos="fade-up">My Projects</h1>
       <div className="projects-grid">
         {projectList.map((project, index) => (

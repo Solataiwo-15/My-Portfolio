@@ -17,7 +17,7 @@ function About() {
   const [ref, inView] = useInView({ triggerOnce: true });
 
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about-content">
         <motion.div
           ref={ref}

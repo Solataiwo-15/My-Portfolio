@@ -1,13 +1,13 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll"; 
 import { useState } from 'react';
 import "./Navbar.css";
 
-
-const Navbar= () => {
-
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  // Function to close the menu on link click, useful for mobile
+  const closeMenu = () => setIsOpen(false);
 
   return (
     <nav className="navbar">
@@ -16,40 +16,28 @@ const Navbar= () => {
         <button className="menu-toggle" onClick={toggleMenu}>
           {isOpen ? '✕' : '☰'}
         </button>
-
       </div>
       <ul className={`nav-links ${isOpen ? "show" : ""}`}>
         <li>
-          <NavLink to="/"
-            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
-            onClick={() => setIsOpen(false)}
-          >
+          <Link
+            to="home" spy={true} smooth={true} offset={-180} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
             Home
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/about"
-            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
-            onClick={() => setIsOpen(false)}
-          >
+          <Link to="about" spy={true} smooth={true} offset={-170} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
             About
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/projects"
-            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
-            onClick={() => setIsOpen(false)}
-          >
+          <Link to="projects" spy={true} smooth={true} offset={-170} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
             Projects
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink to="/contact"
-            className={({ isActive }) => (isActive ? "nav-link active" : "nav-link")}
-            onClick={() => setIsOpen(false)}
-          >
+          <Link to="contact" spy={true} smooth={true} offset={-170} duration={500} className="nav-link" activeClass="active" onClick={closeMenu}>
             Contact
-          </NavLink>
+          </Link>
         </li>
       </ul>
     </nav>

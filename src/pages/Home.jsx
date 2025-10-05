@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <section className="hero">
+    <section className="hero" id="home">
       <div className="hero-content">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

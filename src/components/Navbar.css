@@ -50,6 +50,7 @@
   font-weight: 500;
   transition: all 0.3s ease;
   font-size: 0.9rem;
+  cursor: pointer; 
 }
 
 .nav-link:hover {

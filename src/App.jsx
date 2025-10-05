@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+// AFTER
+import Home from "./pages/Home"; // Assuming you have a Home.jsx
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
@@ -7,30 +7,18 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <div className="content">
-          <Routes>
-            <Route path="/" 
-              element={<Home />} 
-            />
-            <Route path="/about" 
-              element={<About />} 
-            />
-            <Route path="/projects" 
-              element={<Projects />} 
-            />
-            <Route path="/contact" 
-              element={<Contact />} 
-            />
-          </Routes>
-        </div>
-        <footer className="footer">
-          <p>© 2025 Taiwo Ahmad. All rights reserved.</p>
-        </footer>
+    <div className="App">
+      <Navbar />
+      <div className="content">
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
       </div>
-    </Router>
+      <footer className="footer">
+        <p>© 2025 Taiwo Ahmad. All rights reserved.</p>
+      </footer>
+    </div>
   );
 }
 
